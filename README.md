@@ -12,4 +12,4 @@ Will update readme as repository expands
 | Folder      | Description |
 |------------|-------------|
 | Old Projects  | Projects for my previous experience on coding. Archived and preserved. |
-| Projects      | Current projects that is in the works. Projects to help learn Java|
+| Java Projects | Current projects that is in the works. Projects to help learn Java|
