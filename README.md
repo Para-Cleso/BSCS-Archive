@@ -25,11 +25,6 @@ Layouts/
 ├─ Border/
 │   BorderLayout examples
 │   Placement in North, South, East, West, Center
-│   Ideal for main windows with panels, menus, and headers
-│
-└─ Card/
-    CardLayout examples
-    Allows switching between multiple panels in the same space
-    Useful for wizards, multi-step forms, or tab-like navigation
+│   Ideal
 
 ---
