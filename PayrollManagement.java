@@ -2,7 +2,7 @@ import java.io.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
-public class Fr extends JFrame {
+public class PayrollManagement extends JFrame {
 
  //important variables
 
@@ -301,5 +301,6 @@ private static void refreshTable(){
     }
 
   }
+
 
 }
