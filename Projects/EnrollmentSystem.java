@@ -1,5 +1,3 @@
-package dreamlast;
-
 import java.io.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
