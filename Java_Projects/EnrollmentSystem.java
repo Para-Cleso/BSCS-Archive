@@ -2,7 +2,7 @@ import java.io.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
-public class Fr extends JFrame {
+public class EnrollmentSystem extends JFrame {
 
  //important variables
 
@@ -15,14 +15,14 @@ public class Fr extends JFrame {
   static JScrollPane scrollPane;
 
  public static void main(String[] args) {
-    new Fr();
+    new EnrollmentSystem();
 
     }
 
   
     //gui for enrollment system
 
-Fr(){
+EnrollmentSystem(){
 
 
   //header texts
@@ -90,6 +90,8 @@ Fr(){
   btnEnroll.addActionListener(e->{
 
    //stores values into each respective variables
+  
+   try { 
 
     stdnName =      txtStdnName.getText();
     address =       txtAddress.getText();
@@ -99,15 +101,20 @@ Fr(){
 
 
     //calls the file creator method and emptying method
-   try { 
-
+  
     saveToFile();
 
     setTextField();
 
-    } catch (Exception xe) {
+    } catch (NumberFormatException xe) {
 
-      JOptionPane.showMessageDialog(null, "Lmao " + xe);
+      JOptionPane.showMessageDialog(null, "Please input a valid age");
+      
+    }
+    catch (IOException xe) {
+
+      JOptionPane.showMessageDialog(null, "Error: " + xe.getMessage() + "\nMake sure EnrolledStudents.txt exists and has valid data.");
+
     }
 
     refreshTable();

@@ -20,13 +20,13 @@ public class PayrollManagement extends JFrame {
 
  public static void main(String[] args) {
 
-  new Fr();
+  new PayrollManagement();
 
   }
 
   //gui for payroll management system
 
-Fr(){
+PayrollManagement(){
 
 
  //header texts
