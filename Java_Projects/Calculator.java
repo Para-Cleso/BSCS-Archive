@@ -1,6 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
 
+/*
+GOAL:
+    This java project was made to replicate a working business calculator.
+    This does not have any feature of a scientific calculator.
+*/
+
 public class Calculator extends JFrame {
 
     //important variables
