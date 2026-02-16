@@ -103,7 +103,7 @@ public class Calculator extends JFrame {
 
     //saves first number and operator, shows operator on display
 
-    static void pressOperator(String op) {
+    private static void pressOperator(String op) {
         try {
             firstNumber = Double.parseDouble(display.getText());
             operator = op;
@@ -116,7 +116,7 @@ public class Calculator extends JFrame {
 
     //appends digit or sets display if starting new number
 
-    static void pressDigit(String d) {
+    private static void pressDigit(String d) {
         if (startingNewNumber)
             display.setText(d);
         else
@@ -126,7 +126,7 @@ public class Calculator extends JFrame {
 
     //computes firstNumber op secondNumber, shows result or error for divide by zero
 
-    static void pressEqual() {
+    private static void pressEqual() {
         try {
             double secondNumber = Double.parseDouble(display.getText());
             String op = operator;
@@ -158,7 +158,7 @@ public class Calculator extends JFrame {
 
     //resets display and state
 
-    static void clearDisplay() {
+    private static void clearDisplay() {
         display.setText("0");
         firstNumber = 0;
         operator = null;
