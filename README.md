@@ -14,3 +14,4 @@ Will update readme as repository expands.
 |------------|-------------|
 | Old Projects  | Projects for my previous experience on coding. Archived and preserved. |
 | Java Projects | Current projects that is in the works. Projects to help learn Java|
+| Python Projects | Current projects that is in the works. Projects to help learn Python|
